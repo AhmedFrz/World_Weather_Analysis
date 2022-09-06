@@ -8,8 +8,8 @@ pip install citipy
 
 from citipy import citipy
 city = citipy.nearest_city(22.99, 120.21)
->>> city
-<citipy.City instance at 0x1069b6518>
+city
+citipy.City instance at 0x1069b6518
 
 city.city_name     # Tainan, my home town
 'tainan'
